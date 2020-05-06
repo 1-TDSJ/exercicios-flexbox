@@ -13,12 +13,13 @@ body {
 
 h1,h2,h3 {
   margin: 20px 10px;
+  text-align: center;
 }
 
 .box-pai {
-  width: 98,5%;
+  width: 75%;
   height: 900px;
-  margin: 10px;
+  margin: auto;
   padding: 10px;
   background-color: #dae3d4;
   border: 1px solid #cccccc;

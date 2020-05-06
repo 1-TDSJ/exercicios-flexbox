@@ -20,7 +20,7 @@
 }
 
 .box-child-2 {
-  flex-basis: 25%;
+  flex-basis: 15%;
   background-color: #f43edf;
   display: flex;
   flex-direction: row;
@@ -32,44 +32,62 @@
   background-color: #e8f43e;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .box-child-4 {
   flex-basis: 25%;
-  background-color: #3e9af4;
+  background-color: #bc23fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-sub-1 {
-  width: 27%;
-  height: 99%;
+  width: 19%;
+  height: 91%;
   background-color: #49fb3a;
   border: 1px solid #000000;
 }
 
 .box-sub-2 {
-  width: 67%;
-  height: 99%;
+  width: 77%;
+  height: 91%;
   background-color: #1ce9f4;
   border: 1px solid #000000;
 }
 
 .box-sub-3 {
-  width: 67%;
-  height: 99%;
-  background-color: #1ce9f4;
+  width: 20%;
+  height: 90%;
+  background-color: #f2872f;
   border: 1px solid #000000;
 }
 
 .box-sub-4 {
-  width: 67%;
-  height: 99%;
-  background-color: #1ce9f4;
+  width: 20%;
+  height: 90%;
+  background-color: #f2872f;
   border: 1px solid #000000;
 }
 
 .box-sub-5 {
-  width: 67%;
-  height: 99%;
-  background-color: #1ce9f4;
+  width: 20%;
+  height: 90%;
+  background-color: #f2872f;
   border: 1px solid #000000;
+}
+
+.box-sub-6 {
+  width: 20%;
+  height: 90%;
+  background-color: #f2872f;
+  border: 1px solid #000000;
+}
+
+.box-sub-7 {
+  width: 50%;
+  height: 90%;
+  border-right: 1.1px solid #000000;
+  border-left: 1.1px solid #000000;
 }
