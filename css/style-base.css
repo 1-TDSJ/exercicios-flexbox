@@ -17,6 +17,7 @@ h1,h2,h3{
 }
 
 .box-pai{
+  margin: auto;
   width: 99%;
   height: 900px;
   margin:10px;

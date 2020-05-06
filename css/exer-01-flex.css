@@ -10,7 +10,7 @@
 
 .box{
   display: block;
-  width: 100%;
+  width: 97%;
   /*height: 150px;*/
   margin: 20px;
   padding: 10px;
@@ -18,14 +18,32 @@
   border: 1px solid #ff0000;
 }
 
+.box-1{
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1100px;
+  border: 1px solid #ff0000;
+}
 
 .box-child-1{
   flex-basis: 10%;
 }
 
 .box-child-2{
-  flex-basis: 20%;
+  display: flex;
+
 }
+/*Filhos de child 2*/
+.box-child-5{
+  flex-basis: 250px;
+}
+.box-child-6{
+  flex-grow: 2;
+}
+/*Filhos de child 2*/
 
 .box-child-3{
   flex-basis: 30%;
