@@ -1,0 +1,66 @@
+.container{
+  max-width: 1100px;
+  padding: 0 3px 0 3px;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  border-style: ridge;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px;
+}
+
+.box1{
+  padding: 25px;
+}
+
+.box2{
+  align-items: center;
+}
+.box5{
+  margin-left: 20px;
+  width: 220px;
+  height: 60px;
+}
+.box6{
+  width: 850px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 60px;
+}
+
+.box7{
+  width: 247px;
+  height: 200px;
+  margin-left: 20px;
+}
+.box8{
+  width: 247px;
+  margin-left: 30px;
+}
+.box9{
+  width: 247px;
+  margin-left: 30px;
+}
+.box10{
+  width: 247px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.box4{
+  display: flex;
+  justify-content: center;
+}
+.box11{
+  border-left: ridge;
+  border-right: ridge;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  height: 120px;
+}
