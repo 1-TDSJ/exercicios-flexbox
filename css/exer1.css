@@ -1,64 +1,56 @@
 @charset "UTF-8";
-/* Padrão */
-.container{
-  display: flex;
-  flex-direction: column;
-}
+
 .box{
-  height: 100px;
   width: 100%;
-  margin: 20px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   max-width: 1100px;
   border: 1px solid #000;
+  display: block;
 }
 /* Primeira caixa */
 
 .primeira{
-  background-color: #62bfb1;
   flex-basis: 10%;
   }
 /* Segunda caixa e suas outras caixas menores contidas nela */
 
 .segunda{
   display: flex;
-  background-color: #43c46a;
   flex-basis: 20%;
 }
 .segunda1{
-  flex-basis: 250px;
-  background-color: #dbf054;
+  margin: 5px 20px;
+  width: 350px;
 }
 .segunda2{
   flex-grow: 2;
-  background-color: #f07154;
 }
 /* Terceira caixa e suas outras 4 caixas contidas nela */
 
 .terceira{
   display: flex;
-  flex-basis: 30%;
-  background-color: #d9b06a;
+  flex-basis: 50%;
 }
 
 .terceira1{
-  height: 150px;
-  background-color: #e48ef5;
+  height: 280px;
+  margin: 10px 20px;
 }
 
 .terceira2{
-  height: 150px;
-  background-color: #b889f5;
+  margin: 10px 20px;
+  height: 280px;
 }
 
 .terceira3{
-  height: 150px;
-  background-color:#989ee3;
+  margin: 10px 20px;
+  height: 280px;
 }
 
 .terceira4{
-  height: 150px;
-  background-color: #90b0fc;
+  margin: 10px 20px;
+  height: 280px;
 
 }
 /* Ultima e quarta caixa com seu elemento div  contido  */
@@ -67,8 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #806bdb;
-  flex-basis: 40%;
+  flex-basis: 20%;
 }
 
 .quarta1{

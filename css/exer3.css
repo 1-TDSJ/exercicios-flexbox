@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* Padrão */
+.box{
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  max-width: 1100px;
+  border: 1px solid #000;
+  display: block;
+}
+
+/* Primeira caixa */
+.primeira{
+  display: flex;
+  flex-basis: 10%;
+}
+.primeira1{
+  flex-grow: 4;
+}
+.primeira2{
+  height: 65px;
+  width: 400px;
+}
+/* Segunda caixa */
+.segunda{
+  height: 40px;
+}
+
+/* Terceira caixa */
+.terceira{
+  display: flex;
+  flex-grow: 10%;
+}
+
+.terceira1{
+  flex-grow: 4;
+}
+.terceira2{
+  width: 600px;
+}
+.terceira2-2-2{
+  display: flex;
+  flex-direction: row;
+}
+.terceira3-3-3{
+  display: flex;
+  flex-direction: row;
+}
+
+.terceira2-1{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+.terceira2-2{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+.terceira2-3{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+
+.terceira2-4{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+/* Quarta Caixa */
+.quarta{
+  height: 40px;
+}
+/*Quinta Caixa*/
+.quinta{
+  display: flex;
+  flex-grow: 10%;
+}
+.quinta1{
+  width: 600px;
+}
+.quinta2{
+  flex-grow: 4;
+}
+.quinta5-1{
+  display: flex;
+  flex-direction: row;
+}
+.quinta5-2{
+  display: flex;
+  flex-direction: row;
+}
+.quinta1-1{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+.quinta1-2{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+.quinta1-3{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+.quinta1-4{
+  height: 60px;
+  width: 60px;
+  flex-grow: 1;
+}
+/* Sexta e ultima  */
+.sexta{
+  height: 75px;
+}

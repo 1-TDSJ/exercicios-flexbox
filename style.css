@@ -15,8 +15,30 @@ h1,h2,h3{
   margin: 20px 10px;
 }
 .container{
-  width: 1200px;
-  height: 900px;
+  width: 1120px;
+  height: 650px;
   margin: 10px;
   background-color: #96abe0;
+  display: flex;
+  flex-direction: column;
+}
+.indice {
+  width: 1120px;
+  height: 30px;
+  margin: 5px 20%;
+  display: flex;
+}
+.indice a{
+  text-decoration: none;
+}
+.indice li{
+  position:relative;
+  float:left;
+  display: inline;
+  padding: 1px;
+  color: #000;
+  background-color: #96abe1;
+  border: 1px solid #000;
+  flex-grow: 1;
+  width: 100px;
 }
