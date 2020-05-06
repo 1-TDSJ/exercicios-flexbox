@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+h1,h2,h3{
+  margin: 20px 10px;
+}
+.container{
+  width: 1200px;
+  height: 900px;
+  margin: 10px;
+  background-color: #96abe0;
+}
