@@ -67,5 +67,13 @@
 }
 /*Filhos de child 3*/
 .box-child-4{
-  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
 }
+/*Filhos de child 4*/
+.box-child-11{
+  width: 50%;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+/*Filhos de child 4*/
