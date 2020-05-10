@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  font-family: Tahoma;
+  font-size: 16px;
+
+}
+
+h1,h2,h3{
+  margin: 20px 10px;
+
+}
+
+
+
+
+
+
+
+.container{
+   width: 99%;
+    height: 900px;
+    margin:10px;
+    padding: 10px;
+    background-color:rgba(47, 129, 187, 0.54);
+    border: 1px solid #cccccc;
+
+
+}
