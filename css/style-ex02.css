@@ -1,68 +1,40 @@
 .container{
   max-width: 1100px;
-  padding: 0 3px 0 3px;
+  padding: 0;
+  margin: 0;
   border-style: ridge;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 /*-=-=- Box Gerais -=-=-*/
 .box{
   border-style: ridge;
   display: flex;
   flex-direction: row;
-  margin: 5px;
+  margin: 5px 10px 5px 10px;
   padding: 5px;
 }
-/*-=-=- Box 1 -=-=-*/
-.box1{
-  padding: 25px;
+.primeiro{
+  width: 650px;
+  height: 300px;
 }
-/*-=-=- Box 2 -=-=-*/
-.box2{
-  align-items: center;
+.segundo{
+  width: 378px;
+  height: 300px;
 }
-.box5{
-  margin-left: 20px;
-  width: 220px;
-  height: 60px;
+.terceiro{
+  width: 307px;
+  height: 150px;
 }
-.box6{
-  width: 850px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 60px;
+.quarto{
+  width: 307px;
+  height: 150px;
 }
-/*-=-=- Box 3 -=-=-*/
-.box3{
+.quinto{
+  width: 377px;
+  height: 150px;
 }
-.box7{
-  width: 247px;
-  height: 200px;
-  margin-left: 20px;
-}
-.box8{
-  width: 247px;
-  margin-left: 30px;
-}
-.box9{
-  width: 247px;
-  margin-left: 30px;
-}
-.box10{
-  width: 247px;
-  margin-left: 30px;
-  margin-right: 20px;
-}
-/*-=-=- Box 4 -=-=-*/
-.box4{
-  display: flex;
-  justify-content: center;
-}
-.box11{
-  border-left: ridge;
-  border-right: ridge;
-  margin: 5px;
-  padding: 5px;
-  width: 250px;
-  height: 120px;
+.sexto{
+  width: 1100px;
+  height: 70px;
 }
