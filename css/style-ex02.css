@@ -14,26 +14,32 @@
   margin: 5px 10px 5px 10px;
   padding: 5px;
 }
+/*-=-=- Primeiro quadrado -=-=-*/
 .primeiro{
   width: 650px;
   height: 300px;
 }
+/*-=-=- Segundo quadrado -=-=-*/
 .segundo{
   width: 378px;
   height: 300px;
 }
+/*-=-=- Terceiro quadrado -=-=-*/
 .terceiro{
   width: 307px;
   height: 150px;
 }
+/*-=-=- Quarto quadrado -=-=-*/
 .quarto{
   width: 307px;
   height: 150px;
 }
+/*-=-=- Quinto quadrado -=-=-*/
 .quinto{
   width: 377px;
   height: 150px;
 }
+/*-=-=- Sexto quadrado -=-=-*/
 .sexto{
   width: 1100px;
   height: 70px;
