@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* Padrão */
+.box-pai{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #ff0808
+}
+
+/*Box menores*/
+.box{
+  display: block;
+  width: 97%;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ff0000;
+}
+
+/*BOX 1*/
+.box-1{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 97%;
+  margin: 18px;
+  padding: 0px;
+  border: 1px solid #ff0000;
+}
+
+/*BOX 3*/
+.box-3{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 97%;
+  height: 173px;
+  margin: 17px;
+  padding: 0px;
+  border: 1px solid #ff0000;
+}
+
+/*BOX-5*/
+.box-5{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 97%;
+  height: 190px;
+  margin: 17px;
+  padding: 0px;
+  border: 1px solid #ff0000;
+}
+
+/*Estilo BOX*/
+.blocoa{
+
+  width: 70%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bloco{
+  flex: 2;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin: -75px;
+}
+
+/*FILHOS BOX 1*/
+.box1{
+  display: block;
+    width: 81%;
+    margin: 19px;
+    padding: 25px;
+    border: 1px solid #fff;
+}
+
+.box2{
+  display: block;
+    width: 14%;
+    margin: 1px;
+    padding: 25px;
+    border: 1px solid #fff;
+}
+
+/*Box Universais*/
+.son1 {
+  flex: 3;
+  height: 150px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid #fff;
+  margin: 10px;
+  width: 65%;
+  }
+
+
+.son2 {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 65px;
+  border: 1px solid #fff;
+  margin: 10px;
+  }
+
+.son3 {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 65px;
+  border: 1px solid #fff;
+  margin: 10px;
+  }
+
+
+.son4
+{flex: 1;
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+height: 65px;
+border: 1px solid #fff;
+margin: 10px;
+}
+
+.son5 {
+flex: 1;
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+height: 65px;
+border: 1px solid #fff;
+margin: 10px;
+}
+
+
+.ultima{
+  display: block;
+  width: 97%;
+  margin: 20px;
+  padding: 27px;
+  border: 1px solid #ff0000;
+}
