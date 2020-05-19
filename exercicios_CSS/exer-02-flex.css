@@ -1,34 +1,43 @@
 .box-pai{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid #000000;
 }
 
-.box{
-  display:block;
-  width: 30%;
-  height: 30%;
-  margin: 20px;
-  padding: 10px;
-  max-width: 1100px;
-  border: 1px solid;
+.box {
+  display: block;
+  border: 1px solid #000000;
+  text-align: center;
 }
 
-.box-1{
-  display:block;
-  width: 30%;
-  height: 30%;
-  margin: 20px;
-  padding: 10px;
-  max-width: 1100px;
-  border: 1px solid;
-}
-/* filhos de box child 1*/
-.box-child-1{
-  flex-basis: 60%;
-  background-color: #7dfc31;
+.box-child-1 {
+  width: 64%;
+  height: 58%;
 }
 
-.box-child-2{
-  background-color: #3eb143;
+.box-child-2 {
+  width: 31%;
+  height: 58%;
+}
+
+.box-child-3 {
+  width: 31%;
+  height: 21%;
+}
+
+.box-child-4 {
+  width: 31%;
+  height: 21%;
+}
+
+.box-child-5 {
+  width: 31%;
+  height: 21%;
+}
+
+.box-child-6 {
+  width: 98%;
+  height: 10%;
 }
