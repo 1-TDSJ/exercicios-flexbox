@@ -15,10 +15,18 @@ body{
 h1,h2,h3{
   margin: 20px 10px;
 }
-.container{
+.container {
   width: 1200px;
   height: 860px;
   margin: 10px;
-  background-color:black;
+  background-color: black;
   text-align: center;
-}
+ }
+
+.container2 {
+  width: 1200px;
+  height: 889px;
+  margin: 10px;
+  background-color: black;
+  text-align: center;
+  }
