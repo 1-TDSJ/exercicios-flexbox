@@ -6,7 +6,7 @@
   max-width: 1100px;
   margin: 20px;
   padding: 10px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .q1{ /*BOX 1*/
@@ -104,11 +104,24 @@
   }
 
 .q4{
-  display: block;
-  width: 97%;
-  height: 100px;
-  margin: 17.5px;
-  padding: 10px;
-  max-width: 1100px
-  border: 1px solid #ff0000
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+.c5{
+  width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 10px;
 }
