@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-.box{ /*CLASSE GERAL DAS BOXES*/
+.box
+{/*CLASSE GERAL DAS BOXES*/
   display: block;
   width: 95%;
   max-width: 1100px;
@@ -9,7 +10,8 @@
   border: 1px solid black;
 }
 
-.q1{ /*BOX 1*/
+.q1
+{/*BOX 1*/
     flex: 1;
     align-items: center;
     display: flex;
@@ -21,7 +23,8 @@
     margin: 10px;
 }
 
-.q2{ /*BOX 2*/
+.q2
+{/*BOX 2*/
 
   width: 100%;
   align-items: center;
@@ -33,7 +36,8 @@
 
 
 
-.c1{ /*CHILD BOX 1*/
+.c1
+{/*CHILD BOX 1*/
 
   flex: 1;
   align-items: center;
@@ -49,7 +53,8 @@
 
 }
 
-.c2{ /*CHILD BOX 2*/
+.c2
+{/*CHILD BOX 2*/
   flex: 3;
   align-items: center;
   display: flex;
@@ -63,7 +68,8 @@
 
 }
 
-.q3{ /*BOX 3*/
+.q3
+{/*BOX 3*/
     flex: 1;
     align-items: center;
     display: flex;
@@ -76,7 +82,7 @@
 }
 
 .c3
-{
+{/*CHILD BOX 3*/
   flex: 1;
   align-items: center;
   display: flex;
@@ -91,7 +97,7 @@
 }
 
 .c4
-{
+{/*CHILD BOX 4*/
   flex: 1;
   align-items: center;
   display: flex;
@@ -103,7 +109,8 @@
   margin: 20px;
   }
 
-.q4{
+.q4
+{/*BOX 4*/
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -113,8 +120,9 @@
     border: 1px solid black;
     margin: 10px;
 }
-.c5{
-  width: 50%;
+.c5
+{/*CHILD BOX 5*/
+    width: 50%;
     align-items: center;
     display: flex;
     flex-direction: row;
