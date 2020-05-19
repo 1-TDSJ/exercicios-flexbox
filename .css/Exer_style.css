@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.box
+{/*CLASSE GERAL DAS BOXES*/
+  display: block;
+  width: 95%;
+  max-width: 1100px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.q1
+{/*BOX 1*/
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.q2
+{/*BOX 2*/
+
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.c1
+{/*CHILD BOX 1*/
+
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.c2
+{/*CHILD BOX 2*/
+  flex: 3;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid black;
+  margin: 20px;
+
+
+}
+
+.q3
+{/*BOX 3*/
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.c3
+{/*CHILD BOX 3*/
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 250px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.c4
+{/*CHILD BOX 4*/
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 250px;
+  border: 1px solid black;
+  margin: 20px;
+  }
+
+.q4
+{/*BOX 4*/
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+.c5
+{/*CHILD BOX 5*/
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 10px;
+}
