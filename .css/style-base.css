@@ -20,9 +20,47 @@ h1, h2, h3{
   max-width: 1100px;
   height: auto;
   background-color: #5549d1;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0px solid black;
+  border-left: 1px solid black;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.container2
+{
+  margin: 0 auto;
+  max-width: 1100px;
+  height: auto;
+  background-color: #5549d1;
+  border-top: 0px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0px solid black;
+  border-left: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container3
+{
+  margin: 0 auto;
+  max-width: 1100px;
+  height: auto;
+  background-color: #5549d1;
+  border-top: 0px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
