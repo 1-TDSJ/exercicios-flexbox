@@ -142,9 +142,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 350px;
+  height: 150px;
   border: 1px solid black;
-  margin: 10px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .q6
@@ -156,9 +159,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 350px;
+  height: 150px;
   border: 1px solid black;
-  margin: 10px;
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .q7
@@ -170,11 +176,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 200px;
+  height: 90px;
   border: 1px solid black;
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .q8
@@ -186,7 +193,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  height: 200px;
+  height: 60px;
   border: 1px solid black;
   margin: 10px;
   }
