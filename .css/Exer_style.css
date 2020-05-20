@@ -10,6 +10,21 @@
   border: 1px solid black;
 }
 
+.base
+{
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
+
 .q1
 {/*BOX 1*/
     flex: 1;
@@ -197,19 +212,3 @@
   border: 1px solid black;
   margin: 10px;
   }
-
-  .q9
-{/*BOX 9*/
-
-    flex: 1;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 200px;
-    border: 1px solid black;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
