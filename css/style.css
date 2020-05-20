@@ -170,3 +170,159 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.box13
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box14
+{
+
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box15
+{
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box16
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box17
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box18
+{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 150px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box19
+{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 0px;
+}
+
+.box20
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 65px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box21
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 65px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box22
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 65px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box23
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 65px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
+
+.box24
+{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80px;
+  border: 1px solid #930065;
+  margin: 10px;
+}
