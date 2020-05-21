@@ -4,6 +4,7 @@
 .box-pai{
   display: flex;
   flex-direction: column;
+  width:49%;
 }
 
 
