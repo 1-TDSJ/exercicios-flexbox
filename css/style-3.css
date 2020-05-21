@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+
+.box-pai{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.box{
+  display: block;
+  width: 97%;
+  /*height: 150px;*/
+  margin: 10px;
+  padding: 5px;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-1{
+  display:inline-flex;
+  width: 95%;
+  height: 10%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-2{
+  width: 90%;
+  height: 70%;
+  border: 1px solid;
+}
+
+.box-child-3{
+  width: 10%;
+  height: 70%;
+  border: 1px solid;
+}
+
+.box-child-4{
+  width: 95%;
+  height: 3%;
+  border: 1px solid;
+}
+
+.box-child-5{
+  flex-wrap: wrap;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+  margin-top:5px;
+  max-width: 1100px;
+  border: 1px solid;
+  align-items:  flex-end;
+}
+
+.box-child-6{
+  align-self: flex-start;
+  display:flex;
+  width: 50%;
+  height: 90%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-7{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-8{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-9{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-10{
+  align-self:flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+.box-child-11{
+  flex-wrap: wrap;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  height: 25%;
+  margin-top:5px;
+  max-width: 1100px;
+  border: 1px solid;
+  align-items:  flex-end;
+}
+
+.box-child-12{
+  align-self:flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-13{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-14{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-15{
+  align-self: flex-start;
+  width: 20%;
+  height: 40%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-16{
+  align-self: column-reverse;
+  display:flex;
+  width: 50%;
+  height: 90%;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-17{
+  width: 95%;
+  height: 8%;
+  border: 1px solid;
+}

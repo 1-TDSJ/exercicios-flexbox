@@ -1,93 +1,78 @@
+@charset "UTF-8";
+
+
 .box-pai{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border: 1px solid #000000;
+  align-items: stretch;
 }
 
-.box {
+
+.box{
   display: block;
-  width: 100%;
+  width: 97%;
+  /*height: 150px;*/
   margin: 20px;
   padding: 10px;
   max-width: 1100px;
-  border: 1px solid #000000;
+  border: 1px solid;
 }
 
-.box-child-1 {
+.box-1{
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1100px;
+  border: 1px solid;
+}
+
+.box-child-1{
   flex-basis: 10%;
-  background-color: #f43e3e;
 }
 
-.box-child-2 {
-  flex-basis: 15%;
-  background-color: #f43edf;
+.box-child-2{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
+/*Filhos de child 2*/
+.box-child-5{
+  flex-basis: 250px;
+}
+.box-child-6{
+  flex-grow: 2;
+}
+/*Filhos de child 2*/
 
-.box-child-3 {
-  flex-basis: 35%;
-  background-color: #e8f43e;
+.box-child-3{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
-
-.box-child-4 {
-  flex-basis: 25%;
-  background-color: #bc23fb;
+/*Filhos de child 3*/
+.box-child-7{
+  flex-grow: 1;
+  height: 200px;
+}
+.box-child-8{
+  flex-grow: 1;
+  height: 200px;
+}
+.box-child-9{
+  flex-grow: 1;
+  height: 200px;
+}
+.box-child-10{
+  flex-grow: 1;
+  height: 200px;
+}
+/*Filhos de child 3*/
+.box-child-4{
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-
-.box-sub-1 {
-  width: 19%;
-  height: 91%;
-  background-color: #49fb3a;
-  border: 1px solid #000000;
-}
-
-.box-sub-2 {
-  width: 77%;
-  height: 91%;
-  background-color: #1ce9f4;
-  border: 1px solid #000000;
-}
-
-.box-sub-3 {
-  width: 20%;
-  height: 90%;
-  background-color: #f2872f;
-  border: 1px solid #000000;
-}
-
-.box-sub-4 {
-  width: 20%;
-  height: 90%;
-  background-color: #f2872f;
-  border: 1px solid #000000;
-}
-
-.box-sub-5 {
-  width: 20%;
-  height: 90%;
-  background-color: #f2872f;
-  border: 1px solid #000000;
-}
-
-.box-sub-6 {
-  width: 20%;
-  height: 90%;
-  background-color: #f2872f;
-  border: 1px solid #000000;
-}
-
-.box-sub-7 {
+/*Filhos de child 4*/
+.box-child-11{
   width: 50%;
-  height: 90%;
-  border-right: 1.1px solid #000000;
-  border-left: 1.1px solid #000000;
+  border-top: 0px;
+  border-bottom: 0px;
 }
+/*Filhos de child 4*/
