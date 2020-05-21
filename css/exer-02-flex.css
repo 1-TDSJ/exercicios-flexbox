@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.box-pai{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1202px;
+}
+.box{
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  max-width: 1170px;
+  border: 1px solid blue;
+}
+.box-filho-1{
+  flex-basis: 60%;
+  height: 50%;
+}
+.box-filho-2{
+  flex-basis: 30%;
+  height: 50%;
+}
+.box-filho-3{
+  flex-basis: 30%;
+  height: 20%;
+  margin-right: 0;
+}
+.box-filho-4{
+  flex-basis: 30%;
+  height: 20%;
+  margin-right: 0;
+}
+.box-filho-5{
+  flex-basis: 30%;
+  height: 20%;
+}
+.box-filho-6{
+  flex-basis: 94%;
+  height: 15%;
+}
